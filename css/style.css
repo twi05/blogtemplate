@@ -1,0 +1,167 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .navigation {
+                font-family: 'Poppins', sans-serif;
+                height: 12vh;
+                /* background-color: blueviolet;     */
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .nav-left {
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+            }
+            
+            .nav-left span {
+                font-size: 35px;
+            }
+            
+            .nav-left ul li {
+                list-style: none;
+                margin: 0px 15px;
+            }
+            
+            .nav-left ul li a:hover {
+                color: black;
+                /* background: wheat; */
+                font-weight: bolder;
+            }
+            
+            .nav-left ul li a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .nav-left ul {
+                display: flex;
+                font-family: 'Roboto', sans-serif;
+                margin: 0px 50px;
+                font-size: 22px;
+            }
+            
+            .content {
+                height: 386px;
+                display: flex;
+                /* background-color: rgb(255, 255, 255); */
+                margin-top: 0px;
+                position: relative;
+            }
+            
+            .content::after {
+                content: "";
+                background-image: url('/img/home.svg');
+                position: absolute;
+                height: inherit;
+                width: 100%;
+                opacity: 0.10;
+                border-radius: 10px;
+            }
+            
+            .content-left {
+                padding: 50px;
+                z-index: 10;
+            }
+            
+            .content-left p {
+                /* padding: 15px 0; */
+                margin: 15px 0;
+            }
+            
+            .content-right {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all 0.2s ease;
+                right: 24px;
+                position: relative;
+            }
+            
+            .content-right img {
+                width: 255px;
+                border: 2px solid black;
+                border-radius: 200px;
+                z-index: 10;
+            }
+            
+            .content-right img:hover {
+                width: 265px;
+                border: 2px solid black;
+                border-radius: 170px;
+                transition: all 0.2s ease;
+            }
+            
+            .home-articles {
+                /* background-color: cadetblue; */
+                /* height: 455px; */
+                margin: 10px auto;
+                position: relative;
+                font-size: 14px;
+            }
+            
+            .home-articles h2 {
+                font-size: 27px;
+            }
+            
+            .year-box {
+                position: absolute;
+                height: 201px;
+                width: 201px;
+                /* background-color: brown; */
+                right: 95px;
+                top: 30px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: large;
+            }
+            
+            .year-box div {
+                margin: 6px 0;
+            }
+            
+            .home-article {
+                display: flex;
+                margin: 25px;
+            }
+            
+            .home-article-image img {
+                height: 200px;
+            }
+            
+            .home-article-image img:hover {
+                height: 205px;
+                transition: all 0.2s ease;
+            }
+            
+            .home-article-content {
+                align-self: center;
+                padding: 0 40px;
+            }
+            
+            .home-articles h2 {
+                margin: 15px 20px;
+            }
+            
+            .footer {
+                height: 15vh;
+                /* background-color: navajowhite; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: 100;
+            }
+            
+            .footer a {
+                color: black;
+            }
+            
+            .adjust-yearbox {
+                right: -232px;
+            }

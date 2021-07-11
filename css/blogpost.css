@@ -1,0 +1,58 @@
+    .post-img img {
+        width: 100%;
+        opacity: 0.13;
+    }
+    
+    .post-img {
+        width: 100%;
+        overflow: hidden;
+        height: 400px;
+        height: 38vh;
+    }
+    
+    .blog-post-content h1 {
+        /* background-color: cadetblue; */
+        text-align: center;
+    }
+    
+    .blog-post-content p {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .rows {
+        display: flex;
+    }
+    
+    .more-post {
+        flex-direction: column;
+    }
+    
+    .blogpost-meta {
+        /* background-color: rgb(222, 238, 207); */
+        display: flex;
+        justify-content: space-between;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 10px 0px;
+        font-size: larger;
+    }
+    
+    .author-info {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    .logo {
+        display: flex;
+        height: 30px;
+        margin: 10px;
+    }
+    
+    .blogpost-meta logo jq {
+        margin: 10px;
+    }
+    
+    .logo {
+        height: 40px;
+        cursor: pointer;
+    }

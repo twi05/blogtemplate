@@ -1,0 +1,33 @@
+body {
+    overflow: hidden;
+}
+
+.contact-content {
+    /* background-color: rgb(255, 255, 255); */
+    margin-top: 0px;
+    position: relative;
+}
+
+.contact-content h2 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url('/img/home.svg');
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.15;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.x {
+    /* display: flex;
+    justify-content: center; */
+    transform: translateX(24vw);
+}

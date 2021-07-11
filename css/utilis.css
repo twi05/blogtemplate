@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@300;400&display=swap');
+.root {
+    --main-bg-color: purple;
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.form-input {
+    padding: 0px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0px 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.nolink {
+    text-decoration: none;
+    color: black;
+}
+
+.form-box input,
+textarea {
+    width: 50vw;
+    padding: 7px 6px;
+    margin: 9px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: 1px solid black;
+}
